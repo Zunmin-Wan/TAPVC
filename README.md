@@ -4,11 +4,11 @@
  Rscript machine.learing.R $oudir train.featuresMerge.exp train.sam.list pred.featuresMerge.exp pred.sam.list case control 
 # train2pred.R
  A custom function that uses the training model for prediction.
-# Train.featuresMerge.exp
+# train.featuresMerge.exp
  The first column is the gene name, the other columns are the sample names of the training set, and the expression is normalized by TPM.
-# Pred.featuresMerge.exp
+# pred.featuresMerge.exp
  The first column is the gene name, the other columns are the sample names of the validation set, and the expression is normalized by TPM.
-# Train.sam.group
+# train.sam.group
  The group information corresponding to the sample name of the training set (0 represents control/1 represents case).
-# Pred.sam.group
+# pred.sam.group
  The group information corresponding to the sample name of the validation set (0 represents control/1 represents case).
